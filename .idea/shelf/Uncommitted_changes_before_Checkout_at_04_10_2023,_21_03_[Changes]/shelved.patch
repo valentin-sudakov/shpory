@@ -1,0 +1,17 @@
+Index: ../../IdeaProjects/shpargalki_JAVA/src/dttm.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Date;\n\npublic class dttm {\n    public static void main(String[] args) {\n        Date date = new Date();\n        System.out.println(date);\n    }\n\n}\n
+===================================================================
+diff --git a/../../IdeaProjects/shpargalki_JAVA/src/dttm.java b/../../IdeaProjects/shpargalki_JAVA/src/dttm.java
+--- a/../../IdeaProjects/shpargalki_JAVA/src/dttm.java	
++++ b/../../IdeaProjects/shpargalki_JAVA/src/dttm.java	
+@@ -3,7 +3,7 @@
+ public class dttm {
+     public static void main(String[] args) {
+         Date date = new Date();
+-        System.out.println(date);
++        System.out.println("сегодня " + date);
+     }
+ 
+ }
